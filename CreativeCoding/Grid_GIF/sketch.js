@@ -1,5 +1,5 @@
 //create a program that can customize the number of squares in a grid
-let gif; // img for static image
+let img; // img for static image
 
 
 function preload () {
