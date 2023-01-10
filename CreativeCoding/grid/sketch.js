@@ -18,7 +18,7 @@ quad (0,0,
         300,300);// move quad 300 pixels in the x direction
 
 translate (0,300)
-  quad (0,0,
+quad (0,0,
       300,0,
       300,300,
       0,300);
