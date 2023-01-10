@@ -11,7 +11,7 @@ createCanvas (windowWidth,windowWidth); //canvas is 720 pixels x 720 pixels
   background (0,0,255); //background color
 }
 function draw() { //runs in a loop
-fill (200,150,0) //fills shape with RGB color
+fill (0,150,0) //fills shape with RGB color
 strokeWeight (1) // stroke weight (thickness) 1 pixel
 
 var num =  30;  // number of squares in my array
