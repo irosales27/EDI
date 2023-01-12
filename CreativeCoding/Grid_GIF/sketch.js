@@ -11,8 +11,6 @@ createCanvas (windowWidth,windowHeight); //canvas is 720 pixels x 720 pixels
 }
 
 function draw() { //runs in a loop
-fill (0,150,0) //fills shape with RGB color
-strokeWeight (1) // stroke weight (thickness) 1 pixel
 
 var num =  30;  // number of squares in my array
 var sideLen = windowWidth/num; // side length
@@ -22,4 +20,8 @@ for (var x = 0; x < windowWidth; x = x + sideLen) { // loop creates a row in the
         image (img, x, y, windowWidth/num, windowWidth/num);
       }
     }
+}
+
+function windowResized () {
+  resizeCanvas (windowWidth, windowHeight);
 }
