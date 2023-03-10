@@ -3,7 +3,7 @@ let img; // img for static image
 
 
 function preload () {
-  img = loadImage ('assets/StarBackground.png'); // to preload my image/GIF
+  img = loadImage ('assets/OneBlockBackground.png'); // to preload my image/GIF
 }
 
 function setup() { //runs 1 time
