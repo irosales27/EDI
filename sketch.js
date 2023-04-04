@@ -23,5 +23,6 @@ for (var x = 0; x < windowWidth; x = x + sideLen) { // loop creates a row in the
 }
 
 function windowResized () {
+img = loadImage ('assets/OneBlockBackground.png')
   resizeCanvas (windowWidth, windowHeight);
 }
